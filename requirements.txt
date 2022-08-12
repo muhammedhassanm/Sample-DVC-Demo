@@ -9,6 +9,7 @@ pandas
 pytest
 tox # Create atest Environment
 flake8 # To track the Goodness of the code and track the code standard
-flask
-gunicorn
+flask==2.1.0
+# jinja2==2.11.1
+gunicorn # For publish webapp
 PyYAML

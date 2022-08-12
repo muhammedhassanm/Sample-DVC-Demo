@@ -8,7 +8,7 @@ sklearn
 pandas
 pytest
 tox # Create atest Environment
-flake8
+flake8 # To track the Goodness of the code and track the code standard
 flask
 gunicorn
 PyYAML

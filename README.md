@@ -35,7 +35,7 @@ git add .
 git commit -m "first commit"
 ```
 
-oneliner updates  for  readme
+oneliner updates  for readme
 
 ```bash
 git add . && git commit -m "update Readme.md"
@@ -67,4 +67,29 @@ pip install -e .
 build your own package commands- 
 ```bash
 python setup.py sdist bdist_wheel
+```
+
+
+
+--- 
+create an artifcats folder 
+
+
+mlflow server command - 
+
+LINUX TERMINAL Command 
+
+```bash
+mlflow server \
+    --backend-store-uri sqlite:///mlflow.db \
+    --default-artifact-root ./artifacts \
+    --host 0.0.0.0 -p 12345
+```
+Windows CMD COMMAND
+
+```bash
+mlflow server ^
+    --backend-store-uri sqlite:///mlflow.db ^
+    --default-artifact-root ./artifacts ^
+    --host 0.0.0.0 -p 12345
 ```

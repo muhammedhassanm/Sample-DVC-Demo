@@ -13,3 +13,4 @@ flask==2.1.0
 # jinja2==2.11.1
 gunicorn # For publish webapp
 PyYAML
+mlflow
